@@ -22,7 +22,7 @@ menu_settings:
     - title: "Projects"
       url: "/projects/"
     - title: "Contact"
-      - url: "/contact/"
+      url: "/contact/"
 
 #-------------------------------
 # Social Settings
