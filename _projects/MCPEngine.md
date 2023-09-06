@@ -4,7 +4,7 @@ subtitle:
 summary: A C++17 engine that I created in School.
 client: Anvod Studio
 tools: 1. Visual Studio
-date: 2023
+date: 2023 08:00:00 +0300
 image: 
 ---
 
