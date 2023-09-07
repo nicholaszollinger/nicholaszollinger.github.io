@@ -1,9 +1,11 @@
 ---
 title: MCP Engine
-subtitle: School Work
-summary: A C++17 engine that I created in School.
-date: 2023-05-01 08:00:00 +0300
-image: /images/project-1.jpg
+subtitle: School Project
+summary: A C++17 Game Engine written from scratch.
+#client: Anvod Studio
+#tools: 1. Figma 2. Illustrator 3. Procreate
+date: 2023-05-01 08:01:35 +0300
+image: '/images/project-9.jpg'
 ---
 
-This is some text about the project. I should talk about the features.
+This is a more detailed summary of the project.

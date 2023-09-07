@@ -21,7 +21,8 @@ layout: default
     <div class="project-left col col-7 col-d-12">
       <div class="project-content">
         {{ content }}
-        {% if page.previous.url %}
+        <!-- This was a feature to move to the next project. Seemed redundant.-->
+        <!-- {% if page.previous.url %}
         <div class="project__nav">
           <div class="project__prev">
             <div class="project__box">
@@ -35,7 +36,7 @@ layout: default
             <img class="lazy" data-src="{{page.previous.image}}" alt="{{page.previous.title}}">
           </a>
         </div>
-        {% endif %}
+        {% endif %} -->
       </div>
 
     </div>
