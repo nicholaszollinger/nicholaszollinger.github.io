@@ -1,6 +1,6 @@
 ---
 title: MCP Engine
-subtitle: 
+subtitle: School Work
 summary: A C++17 engine that I created in School.
 date: 2023-05-01 08:00:00 +0300
 image: /images/project-1.jpg

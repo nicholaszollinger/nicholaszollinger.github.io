@@ -44,7 +44,6 @@ hero:
   hero_button_contact: Get In Touch
   hero_button_about: About Me
 
-
 #-------------------------------
 # Projects Settings
 section_projects_title: 👨🏻‍💻 Projects at a Glance
@@ -78,7 +77,7 @@ footer_menu_settings:
 
 #-------------------------------
 # Comment Section (Disqus)
-# disqus_identifier: anvodstudio-demo # Add your shortname for Disqus Comment. For example anvodstudio-demo
+#disqus_identifier: anvodstudio-demo # Add your shortname for Disqus Comment. For example anvodstudio-demo
 
 
 #-------------------------------
