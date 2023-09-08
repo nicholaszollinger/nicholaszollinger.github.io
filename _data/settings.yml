@@ -1,8 +1,8 @@
 #-------------------------------
 # Site Settings
 title: Nicholas Zollinger
-logo: "/images/logo.svg" # You can add own logo. For example "/images/logo.svg".
-logo_dark: "/images/logo-dark.svg"
+logo: "/images/Logo Black.png" # You can add own logo. For example "/images/logo.svg".
+logo_dark: "/images/Logo White.png"
 description: Nicholas Zollinger, Game Programmer... TODO
 color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the users can choose the light or dark mode themself.
 
@@ -49,9 +49,9 @@ social:
 # Hero Settings
 hero:
   enable: true
-  hero_title: Nicholas Zollinger. Programmer, Artist, <span><i>Nerd.</i></span> # Add the "span" tag to highlight text.
+  hero_title: Programmer, Artist, <span><i>Nerd.</i></span> # Add the "span" tag to highlight text.
   hero_description: I’m Nick, a Gameplay Engineer in training based in the Bay Area. 
-  hero_image: "/images/01.jpg"
+  hero_image: "/images/Yellow Blobby ROUGH.png"
   hero_button_contact: Get In Touch
   hero_button_about: About Me
 
