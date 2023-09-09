@@ -6,6 +6,11 @@ logo_dark: "/images/Logo White.png"
 description: Nicholas Zollinger, Game Programmer... TODO
 color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the users can choose the light or dark mode themself.
 
+#-------------------------------
+# Resume Settings
+resume:
+  link: "/assets/Resume.txt"
+  downloadName: "NicholasZollinger_Resume"
 
 #-------------------------------
 # Author Settings
@@ -32,7 +37,6 @@ menu_settings:
 #        title: "Contact"
 #      - url: "/elements/"
 #        title: "Elements"
-
 
 #-------------------------------
 # Social Settings
