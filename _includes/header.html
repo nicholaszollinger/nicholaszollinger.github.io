@@ -44,9 +44,12 @@
           </div>
         </nav>
 
+        <!-- Resume and Social buttons-->
         {% if site.data.settings.social %}
         <div class="social-nav">
           <ul class="social__list list-reset">
+            <!-- Resume Download button-->
+            <a href="{{ site.data.settings.resume.link }}" download="{{site.data.settings.resume.downloadName}}" class="resumeButton">Resume <i class="fa fa-download"></i></a>
             {% for social in site.data.settings.social %}
             <li class="social__item">
               <a class="social__link" href="{{social.link}}" target="_blank" rel="noopener" aria-label="Social link"><i class="{{social.icon}}"></i></a>
