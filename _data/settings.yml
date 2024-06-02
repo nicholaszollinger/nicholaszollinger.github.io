@@ -10,12 +10,11 @@ color_scheme: auto # You can choose three modes auto, light, and dark. By defaul
 # Resume Settings
 resume:
   link: "/assets/Resume.txt"
-  downloadName: "NicholasZollinger_Resume"
+  downloadName: "NicholasZollinger_Resume.txt"
 
 #-------------------------------
 # Author Settings
 author_name: Aaron Simons
-
 
 #-------------------------------
 # Navigation Settings
@@ -141,7 +140,7 @@ footer_menu_settings:
 #-------------------------------
 # Contact Settings
 contact:
-  email: nicholas.zollinger@gmail.com # Add your form_id
+  email: nicholas.zollinger+work@protonmail.com # Add your form_id
   description: Simpler comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want. # Add a description of your form
 
 # NOTE
