@@ -6,6 +6,6 @@ image: '/images/01.jpg'
 ---
 
 ## Get in touch!
-- Email: nicholas.zollinger@gmail.com
+- Email: nicholas.zollinger+work@protonmail.com
 
 ***

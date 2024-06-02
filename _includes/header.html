@@ -15,10 +15,17 @@
           </a>
         </div>
 
-        <div class="hamburger">
-          <div></div>
+        <div class="row">
+            <!-- Mobile Resume Download button-->
+            <a href="{{ site.data.settings.resume.link }}" download="{{site.data.settings.resume.downloadName}}" class="resume-button-mobile">Resume  <i class="fa fa-download"></i></a>
+
+            <!-- Mobile nav dropdown Menu -->
+            <div class="hamburger">
+            <div></div>
+            </div>
         </div>
 
+        <!-- Desktop top navigation -->
         <nav class="main-nav" aria-label="Main menu">
           <div class="main-nav__box">
             <ul class="nav__list list-reset">
@@ -43,19 +50,20 @@
             </ul>
           </div>
         </nav>
-
+            
         <!-- Resume and Social buttons-->
         {% if site.data.settings.social %}
         <div class="social-nav">
-          <ul class="social__list list-reset">
-            <!-- Resume Download button-->
-            <a href="{{ site.data.settings.resume.link }}" download="{{site.data.settings.resume.downloadName}}" class="resumeButton">Resume <i class="fa fa-download"></i></a>
+        <ul class="social__list list-reset">
+            <!-- Desktop Download button -->
+            <a href="{{ site.data.settings.resume.link }}" download="{{site.data.settings.resume.downloadName}}" class="resume-button">Resume <i class="fa fa-download"></i></a>
+            
             {% for social in site.data.settings.social %}
             <li class="social__item">
-              <a class="social__link" href="{{social.link}}" target="_blank" rel="noopener" aria-label="Social link"><i class="{{social.icon}}"></i></a>
+            <a class="social__link" href="{{social.link}}" target="_blank" rel="noopener" aria-label="Social link"><i class="{{social.icon}}"></i></a>
             </li>
             {% endfor %}
-          </ul>
+        </ul>
         </div>
         {% endif %}
 
