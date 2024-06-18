@@ -4,6 +4,7 @@
     <div class="row">
       <div class="header__inner col col-12">
 
+        <!-- Logo -->
         <div class="logo">
           <a class="logo__link" href="{{ site.baseurl }}/">
           {% if site.data.settings.logo or site.data.settings.logo_dark %}
@@ -15,14 +16,21 @@
           </a>
         </div>
 
+        <!-- Mobile Dropdown Menu-->
         <div class="hamburger">
-          <div></div>
+            <div></div>
         </div>
+        <!-- Mobile Resume Download button-->
+        <!-- The dropdown menu above was here as well.
+        <div class="row">
+            <a href="{{ site.data.settings.resume.link }}" download="{{site.data.settings.resume.downloadName}}" class="resume-button-mobile">Resume  <i class="fa fa-download"></i></a>    
+        </div>
+            -->
 
+        <!-- Desktop top navigation -->
         <nav class="main-nav" aria-label="Main menu">
           <div class="main-nav__box">
             <ul class="nav__list list-reset">
-
             {% for item in site.data.settings.menu_settings.menu_items %}
               {% if item.submenu %}
               <li class="nav__item dropdown">
@@ -43,19 +51,21 @@
             </ul>
           </div>
         </nav>
-
+            
         <!-- Resume and Social buttons-->
         {% if site.data.settings.social %}
         <div class="social-nav">
-          <ul class="social__list list-reset">
-            <!-- Resume Download button-->
-            <a href="{{ site.data.settings.resume.link }}" download="{{site.data.settings.resume.downloadName}}" class="resumeButton">Resume <i class="fa fa-download"></i></a>
+        <ul class="social__list list-reset">
+            <!-- Desktop Download button -->
+            <!-- 
+            <a href="{{ site.data.settings.resume.link }}" download="{{site.data.settings.resume.downloadName}}" class="resume-button">Resume <i class="fa fa-download"></i></a> 
+            -->
             {% for social in site.data.settings.social %}
             <li class="social__item">
-              <a class="social__link" href="{{social.link}}" target="_blank" rel="noopener" aria-label="Social link"><i class="{{social.icon}}"></i></a>
+            <a class="social__link" href="{{social.link}}" target="_blank" rel="noopener" aria-label="Social link"><i class="{{social.icon}}"></i></a>
             </li>
             {% endfor %}
-          </ul>
+        </ul>
         </div>
         {% endif %}
 
