@@ -11,9 +11,16 @@ layout: default
     <h1 class="project-info__title">{{ page.title }}</h1>
   </div>
 
-  {% if page.image %}
+  <!-- Demo Video -->
+  {% if page.demo %}
+  <div class="project-info-demo">
+    <video controls controlsList = "nodownload" src="{{site.baseurl}}{{page.demo}}" type="video/mp4" poster="{{site.baseurl}}{{page.image}}"></video> 
+  </div>
+
+  <!-- If there is no Demo Video, display the image-->
+  {% else if page.image %}
   <div class="project-info-image">
-    <img class="lazy" data-src="{{site.baseurl}}{{page.image}}" alt="{{page.title}}">
+    <img class="lazy" data-src="{{site.baseurl}}{{page.image}}" alt="{{page.title}}"> 
   </div>
   {% endif %}
 
