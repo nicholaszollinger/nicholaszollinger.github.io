@@ -17,7 +17,7 @@
           {% endif %}
 
           <div class="row">
-            {% assign sorted = site.projects | sort: 'date' | reverse %}
+            {% assign sorted = site.projects | sort: 'priority' | reverse %}
             {% for project in sorted:%}
             <article class="project col col-4 col-w-6 col-t-12">
               <div class="project__content">

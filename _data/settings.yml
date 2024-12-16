@@ -9,7 +9,7 @@ color_scheme: auto # You can choose three modes auto, light, and dark. By defaul
 #-------------------------------
 # Resume Settings
 resume:
-  link: "/assets/Resume.txt"
+  link: "/assets/Resume.pdf"
   downloadName: "NicholasZollinger_Resume.txt"
 
 #-------------------------------
@@ -31,10 +31,14 @@ menu_settings:
 
 #-------------------------------
 # Social Settings
-social:
-- {icon: "fa-brands fa-twitter", link: "https://twitter.com/n_zollinger"}
+social_professional:
 - {icon: "fa-brands fa-github", link: "https://github.com/nicholaszollinger"}
 - {icon: "fa-brands fa-linkedin", link: "https://www.linkedin.com/in/nicholas-zollinger/"}
+
+social:
+- {icon: "fa-brands fa-twitter", link: "https://bsky.app/profile/nui-z.bsky.social"}
+
+
 # Example of adding a new link to the header and footer - {icon: "fa-brands fa-youtube", link: "https://youtube.com"}
 # Other icons can be found at https://fontawesome.com/icons
 
@@ -45,7 +49,7 @@ hero:
   enable: true
   hero_title: Programmer, Artist, <span><i>Nerd.</i></span> # Add the "span" tag to highlight text.
   hero_description: I’m Nick, a Gameplay Engineer in training based in the Bay Area. 
-  hero_image: "/images/Yellow Blobby ROUGH.png"
+  hero_image: "/assets/Art/World Serpent Mountains.png"
   hero_button_contact: Get In Touch
   hero_button_about: About Me
 

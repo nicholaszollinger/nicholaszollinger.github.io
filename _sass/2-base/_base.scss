@@ -43,6 +43,47 @@ body {
   }
 }
 
+// footer {
+//   font-family: $base-font-family;
+//   font-size: $base-font-size;
+//   line-height: $base-line-height;
+//   overflow-x: hidden;
+//   color: var(--text-color);
+//   background-color: var(--background-color);
+//   -webkit-font-smoothing: antialiased;
+//   -moz-osx-font-smoothing: grayscale;
+
+//   &.is-in {
+//     &::after {
+//       visibility: hidden;
+//       opacity: 0;
+//       pointer-events: none;
+//     }
+//   }
+
+//   &::after {
+//     content: "";
+//     position: fixed;
+//     left: 0;
+//     top: 0;
+//     width: 100%;
+//     height: 100%;
+//     background: var(--background-alt-color);
+//     z-index: 15;
+//     transition: 1s;
+//   }
+
+//   &.disable-animation {
+//     *, *::after, *::before {
+//       transition: none !important;
+//     }
+//   }
+
+//   @media (max-width: $mobile) {
+//     font-size: 16px;
+//   }
+// }
+
 h1,
 h2,
 h3,

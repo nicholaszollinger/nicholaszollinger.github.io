@@ -1,14 +1,18 @@
 ---
-layout: page
+layout: contact
 title: Contact
 permalink: /contact/
-image: '/images/01.jpg'
+image: '/assets/Art/Forest Shishkin Story.png'
 ---
 
-## Get in touch!
-<!-- Resume Download button -->
-<a href="{{ site.data.settings.resume.link }}" download="{{site.data.settings.resume.downloadName}}" class="resume-button">Resume <i class="fa fa-download"></i></a> 
+**Email**: nicholas.zollinger+work@protonmail.com
 
-✉️ nicholas.zollinger+work@protonmail.com
-
-***
+<div class="social-footer">
+    <ul class="social__list list-reset">
+        {% for social in site.data.settings.social %}
+        <li class="social__item">
+            <a class="social__link" href="{{social.link}}" target="_blank" rel="noopener" aria-label="Social link"><i class="{{social.icon}}"></i></a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
