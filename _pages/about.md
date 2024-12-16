@@ -5,10 +5,10 @@ permalink: /about/
 image: '/images/01-1.jpg'
 ---
 
-Hello! I'm Nick and I'm a software engineer in the gaming industry who enjoys making art when I can!
+Hello! I'm Nick, a software engineer in training looking to break into the gaming industry, and who enjoys making art when I can!
 
 ### Pursuing my Passion
-Now I am currently working to earn my Bachelor's degree in Game Programming at the Academy of Art University. Through hard work and mentorship from the industry professionals that teach there, I was given the opportunity to attend GDC 2023 in person!
+I am currently working to earn my Bachelor's degree in Game Programming at the Academy of Art University. Through hard work and mentorship from the industry professionals that teach there, I was given the opportunity to attend GDC 2023 in person!
 
 ***
 
@@ -20,12 +20,12 @@ I play a variety of games, depending on the headspace that I am in. Some days, I
 ***
 
 # 🎨ART!🎨
-Before programming, I had art. I was always drawing as a kid, and eventually I gained a nack for it. I applied and got accepted to the School of the Art Institute of Chicago (SAIC) with a scholarship. I still try to draw make art when I can as a hobby, but I found new passion in programming!
+Before programming, I had art. I was always drawing as a kid, and eventually I gained a nack for it. I applied and got accepted to the School of the Art Institute of Chicago (SAIC) with a scholarship. I still try to draw make art when I can as a hobby, but I found a new passion in programming!
 
 <div class="gallery-box">
   <div class="gallery">
-    <img src="/images/On Edge - 36in x 48in.png" loading="lazy" alt="Project">
-    <img src="/images/Chair Series - Theirs. Pencil on Paper 2017.JPG" loading="lazy" alt="Project">
+    <img src="/images/On Edge - 36in x 48in.png" loading="lazy">
+    <img src="/images/Chair Series - Theirs. Pencil on Paper 2017.JPG" loading="lazy">
   </div>
   <em>"On Edge" / "Theirs"</em>
 </div>
@@ -36,5 +36,3 @@ Before programming, I had art. I was always drawing as a kid, and eventually I g
 Outside of programming and art, one of the things I do to keep myself active is distance running! My aim is to run a marathon someday!  
 
 I am a huge Everton Football Club fan, though I don't know if it is a curse or blessing 😅. NSNO!
-
-***
