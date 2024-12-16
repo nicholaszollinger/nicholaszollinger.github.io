@@ -311,7 +311,7 @@
   }
 }
 
-/* Button for downloading the resume on Des */
+/* Button for opening up the resume on Desktop */
 .resume-button {
     padding: 12px;
     font-size: 14px;
@@ -325,6 +325,7 @@
     right: 0;
     margin-left: auto;
     */
+
     margin-right: 12px;
     line-height: 1;
     text-decoration: none;
@@ -347,11 +348,11 @@
         border: 1px solid var(--button-background-color);
         color: var(--button-background-color);
         background: transparent;
-
+        
         &:hover {
-        border-color: var(--button-background-hover);
-        color: var(--button-background-hover);
-        background: transparent;
+            border-color: var(--button-background-hover);
+            color: var(--button-background-hover);
+            background: transparent;
         }
     }
 
@@ -361,15 +362,17 @@
 
     &--big {
         display: block;
-        width: 100%;
+        //width: 100%;
     }
 
     @media (max-width: $desktop) {
-        display: flex;
+        display: inline-block;
     }
 
     @media (max-width: $mobile) {
-        display: none;
+        display: inline-block;
+        //font-size: 16px;
+        //width: 240;
     }
 }
 

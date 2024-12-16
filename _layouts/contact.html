@@ -1,0 +1,40 @@
+---
+layout: default
+---
+<div class="container">
+    <div class="page-head">
+
+        <div class="page-info">
+            <h1 class="page-title">{{ page.title | escape }}</h1>
+            {% if page.description %}
+            <p class="page-description">{{ page.description }}</p>
+            {% endif %}
+        </div>
+
+        {% if page.image %}
+        <div class="project-info-image">
+            <img class="lazy" data-src="{{site.baseurl}}{{page.image}}" alt="{{page.title}}">
+        </div>
+        {% if page.image_caption %}
+        <div class="page-image-caption">{{ page.image_caption | markdownify | replace: '<p>' | replace: '</p>' }}</div>
+        {% endif %}
+        {% endif %}
+
+        <div class="row">
+            <!--Main Column for Email, Links -->
+            <div class="project-left col col-7 col-d-12">
+                <div class="project-content">
+                    {{ content }}
+                </div>
+            </div>
+
+            <!-- Side Bar for Resume-->
+            <div class="project-right col col-5 col-d-12">
+                <aside class="sidebar">
+                    {% include sidebar-widgets/widget-contact-meta.html %}
+                </aside>
+            </div>
+        </div>
+
+    </div>
+</div>
