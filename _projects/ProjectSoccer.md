@@ -2,9 +2,9 @@
 title: Project Soccer
 subtitle: UE5 Project
 summary: A Soccer game inspired by "Super Mario Strikers Charged". Made in Unreal Engine 5.
-github: 
+github:
 image: '/assets/ProjectSoccer/Logo.png'
-demo: '/assets/ProjectSoccer/DemoVideo.mp4'
+demo: "https://www.youtube.com/embed/slAgmUe9J_w?si=SLjuhKPnp9Y7ViLE"
 priority: 5
 ---
 ## Motivation
