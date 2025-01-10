@@ -12,7 +12,7 @@ The basic idea for this game was to thread the needle between **EA's FC (formerl
 
 For my taste, **FC** has some incredible mechanics, but the pursuit of making it feel more an more like a simulation game has left the movement feeling a bit rigid, clunky and frustrating at times when you compare in game animations or referee decisions to the real world. 
 
-On the other hand, **Super Mario Strikers**' movement is way more snappy, there are *no refs* (crowd goes wild), and the chaos of items and "super moves" adds a lot of fun to the experience. But, I miss some of the dribbling mechanics and player progression in the FIFA series.
+On the other hand, **Super Mario Strikers**' movement is way more snappy, there are *no refs* (crowd goes wild), and the chaos of items and "super moves" adds a lot of fun to the experience. However, I miss some of the dribbling mechanics and player progression in the FIFA series.
 
 ***Enter in: Project Soccer!*** (The title is temporary 😅)
 

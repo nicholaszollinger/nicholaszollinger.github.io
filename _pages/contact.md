@@ -7,7 +7,8 @@ image: '/assets/Art/Forest Shishkin Story.png'
 
 **Email**: nicholas.zollinger+work@protonmail.com
 
-<div class="social-footer">
+<!-- Non-work Socials. Do I want this? -->
+<!-- <div class="social-nav">
     <ul class="social__list list-reset">
         {% for social in site.data.settings.social %}
         <li class="social__item">
@@ -15,4 +16,4 @@ image: '/assets/Art/Forest Shishkin Story.png'
         </li>
         {% endfor %}
     </ul>
-</div>
+</div> -->
