@@ -1,8 +1,8 @@
 #-------------------------------
 # Site Settings
 title: Nicholas Zollinger
-logo: "/images/Logo Black.png" # You can add own logo. For example "/images/logo.svg".
-logo_dark: "/images/Logo White.png"
+logo: "/assets/Logo Black.png" # You can add own logo. For example "/images/logo.svg".
+logo_dark: "/assets/Logo White.png"
 description: Nicholas Zollinger, Software Engineer in Games
 color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the users can choose the light or dark mode themself.
 
@@ -36,7 +36,7 @@ social_professional:
 - {icon: "fa-brands fa-linkedin", link: "https://www.linkedin.com/in/nicholas-zollinger/"}
 
 social:
-- {icon: "fa-brands fa-twitter", link: "https://bsky.app/profile/nui-z.bsky.social"}
+- {icon: "fa-brands fa-bluesky", link: "https://bsky.app/profile/nui-z.bsky.social"}
 
 
 # Example of adding a new link to the header and footer - {icon: "fa-brands fa-youtube", link: "https://youtube.com"}

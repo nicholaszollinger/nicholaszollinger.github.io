@@ -65,6 +65,12 @@
             <a class="social__link" href="{{social.link}}" target="_blank" rel="noopener" aria-label="Social link"><i class="{{social.icon}}"></i></a>
             </li>
             {% endfor %}
+
+            <!-- Light Mode / Dark Mode-->
+            <div class="toggle-theme">
+              <div class="toggle-moon" title="Enable dark mode" aria-hidden="true"><i class="fa-solid fa-moon"></i></div>
+              <div class="toggle-sun" title="Enable light mode" aria-hidden="true"><i class="fa-regular fa-sun"></i></div>
+            </div>
         </ul>
         </div>
         {% endif %}
