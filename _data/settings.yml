@@ -5,6 +5,7 @@ logo: "/assets/Logo Black.png" # You can add own logo. For example "/images/logo
 logo_dark: "/assets/Logo White.png"
 description: Nicholas Zollinger, Software Engineer in Games
 color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the users can choose the light or dark mode themself.
+about_image: "/assets/Art/OnePieceProfilePic.png"
 
 #-------------------------------
 # Resume Settings
