@@ -52,14 +52,11 @@
           </div>
         </nav>
             
-        <!-- Resume and Social buttons-->
+        <!--Professional Social buttons & Light Mode/Dark Mode-->
         {% if site.data.settings.social_professional %}
         <div class="social-nav">
         <ul class="social__list list-reset">
-            <!-- Desktop Download button -->
-            <!-- 
-            <a href="{{ site.data.settings.resume.link }}" download="{{site.data.settings.resume.downloadName}}" class="resume-button">Resume <i class="fa fa-download"></i></a> 
-            -->
+            
             {% for social in site.data.settings.social_professional %}
             <li class="social__item">
             <a class="social__link" href="{{social.link}}" target="_blank" rel="noopener" aria-label="Social link"><i class="{{social.icon}}"></i></a>

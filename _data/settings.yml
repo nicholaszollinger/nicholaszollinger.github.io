@@ -4,7 +4,7 @@ title: Nicholas Zollinger
 logo: "/assets/Logo Black.png" # You can add own logo. For example "/images/logo.svg".
 logo_dark: "/assets/Logo White.png"
 description: Nicholas Zollinger, Software Engineer in Games
-color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the users can choose the light or dark mode themself.
+color_scheme: "auto" # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the users can choose the light or dark mode themself.
 about_image: "/assets/Art/OnePieceProfilePic.png"
 
 #-------------------------------
@@ -48,7 +48,7 @@ social:
 # Hero Settings
 hero:
   enable: true
-  hero_title: Programmer, Artist, <span><i>Nerd.</i></span> # Add the "span" tag to highlight text.
+  hero_title: Programmer, <span><i>Nerd.</i></span> # Add the "span" tag to highlight text.
   hero_description: I’m Nick, a Gameplay Engineer in training based in the Bay Area. 
   hero_image: "/assets/Art/World Serpent Mountains.png"
   hero_button_contact: Get In Touch
