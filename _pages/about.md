@@ -28,8 +28,10 @@ Before programming, I had art. I was always drawing as a kid, and eventually I g
   <div class="gallery">
     <img src="/assets/Art/On Edge - 36in x 48in.png" loading="lazy">
     <img src="/assets/Art/Chair Series - Theirs. Pencil on Paper 2017.JPG" loading="lazy">
+    <img src="/assets/Art/13 Assassins Brush Pen 2021.jpg" loading="lazy">
+    <img src="/assets/Art/WIP Oscar Pako 2.png" loading="lazy">
   </div>
-  <em>"On Edge", "Theirs"</em>
+  <em>"On Edge", "Theirs", "13 Assassins Study", "WIP Oscar as Pako MTG"</em>
 </div>
 
 ***
