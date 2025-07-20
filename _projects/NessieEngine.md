@@ -6,6 +6,7 @@ github: https://github.com/nicholaszollinger/Nessie
 image: '/assets/NessieEngine/LogoProgressTag.png' # Update image once video is ready.
 demo: 
 priority: 1
+projectTag: nessie
 ---
 
 The Nessie Engine is my playground project where I can learn, practice and explore engine and lower-level programming topics that interest me! It is written

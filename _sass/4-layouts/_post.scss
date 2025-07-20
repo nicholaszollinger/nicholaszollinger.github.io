@@ -66,7 +66,7 @@
   font-weight: 600;
 
   .post-date,
-  .post-author,
+  .post-project,
   .post-minutes {
     margin: 0 4px;
   }
@@ -107,6 +107,19 @@
 }
 
 .post-author {
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+  color: var(--text-color);
+
+  &:hover {
+    color: var(--heading-font-color);
+    text-decoration-color: var(--heading-font-color);
+  }
+}
+
+.post-project {
   text-decoration: underline;
   text-decoration-color: transparent;
   text-decoration-thickness: 1px;

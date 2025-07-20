@@ -25,10 +25,10 @@ menu_settings:
       url: "/"
     - title: "About"
       url: "/about/"
-    #- title: "Projects"
-    #  url: "/projects/"
     - title: "Contact"
       url: "/contact/"
+    - title: "Dev Log"
+      url: "/devlog/"
 
 #-------------------------------
 # Social Settings
@@ -54,10 +54,17 @@ hero:
   hero_button_contact: Get In Touch
   hero_button_about: About Me
 
-
 #-------------------------------
 # Projects Settings
-section_projects_title: Projects
+section_projects_title: 👨‍💻Projects
+
+#-------------------------------
+# Blog Section
+section_blog_title: 📚 Latest Posts
+#-------------------------------
+
+# Tags Section
+section_tags_title: 💾 Explore Topics
 
 #-------------------------------
 # Footer Settings
@@ -71,10 +78,10 @@ footer_menu_settings:
       url: "/"
     - title: "About"
       url: "/about/"
-    #- title: "Projects"
-    #  url: "/projects/"
     - url: "/contact/"
       title: "Contact"
+    - title: "Dev Log"
+      url: "/devlog/"
 
 
 #-------------------------------

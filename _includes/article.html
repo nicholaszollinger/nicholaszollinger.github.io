@@ -22,10 +22,10 @@
 
       <div class="article__meta">
         <time class="article__date" datetime="{{ post.date | date_to_xmlschema }}">{% assign date_format = site.minima.date_format | default: "%d %-b, %Y" %}{{ post.date | date: date_format }} </time>
-        <span class="article__minutes">
+        <!-- <span class="article__minutes">
           {% assign words = post.content | number_of_words %}
           {% if words < 360 %}· 1 min read {% else %}· {{ words | divided_by:180 }} min read {% endif %} 
-        </span>
+        </span> -->
       </div>
       
     </div>

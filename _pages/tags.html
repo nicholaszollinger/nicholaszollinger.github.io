@@ -12,14 +12,31 @@ permalink: /tags/
   {% for item in (0..site.tags.size) %}{% unless forloop.last %}
   {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
 
-    <div class="tags__inner is-hidden" id="{{ this_word | cgi_escape }}">
+  {% assign isProjectTag = false %}
+  {% for project in site.projects %}
+    {% if project.projectTag == this_word %}
+        {% assign isProjectTag = true %}
+        {% assign projectURL = project.url %}
+        {% break %}
+    {% endif %}
 
+  {% endfor %}
+
+    <div class="tags__inner is-hidden" id="{{ this_word | cgi_escape }}">
       <div class="container">
         <div class="page-wrapper__info">
           <div class="tag-counter">{{ site.tags[this_word].size }} {% if site.tags[page.tag].size < 2 %}Post{% else %}Posts{% endif %}</div>
           <h2 class="page-info__title">{{ this_word | capitalize }}</h2>
+
+          {% if isProjectTag == true %}
+             
+          <a href={{projectURL}} class="button hero__button__left">View Project</a>
+
+          {% endif %}
         </div>
       </div>
+
+    
 
       <div class="container">
         <div class="row">

@@ -1,4 +1,46 @@
 <div class="widget-sidebar recent-projects">
+
+    <!-- Find all posts with the projectTag equal to this Project Tag. -->
+    <!-- {% assign post-collection = site.posts %}
+    {% assign relatedCount = 0 %}
+
+    {% for post in post-collection %}
+        {% if post.projectTag == page.projectTag %}
+            {% assign relatedCount = relatedCount | plus: 1 %}
+            {% if relatedCount >= 3 %}
+                {% break %}
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+
+    {% if relatedCount > 0 %}
+    <h2 class="widget-sidebar__title">Recent Posts</h2>
+    <div class="recent-posts">
+        {% assign localCount = 0 %}
+        {% for post in post-collection %}
+            {% if post.projectTag == page.projectTag %}
+
+                {% if post.image %}
+                <a href="{{ post.url | prepend: site.baseurl }}" class="recent-posts__image">
+                    <img class="lazy" data-src="{{site.baseurl}}{{post.image}}" alt="{{post.title}}">
+                </a>
+                {% endif %}
+
+                <div class="recent-posts__content">
+                    <time class="recent-posts__date" datetime="{{ post.date | date_to_xmlschema }}">{% assign date_format = site.minima.date_format | default: "%d %-B, %Y" %}{{ post.date | date: date_format }}</time>
+                    <h4 class="recent-posts__title"><a href="{{ post.url }}">{{ post.title }}</a></h4>
+                </div>
+
+                {% assign localCount = localCount | plus: 1 %}
+                {% if localCount == relatedCount %}
+                    {% break %}
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+    </div>
+    {% endif %} -->
+
+
   <h2 class="widget-sidebar__title">Other Projects</h2>
   {% assign project-collection = site[page.collection] | sample:4 %}
   {% assign relatedCount = 0 %}
@@ -25,4 +67,6 @@
     {% endif %}
     {% endif %}
   {% endfor %}
+
+  
 </div>

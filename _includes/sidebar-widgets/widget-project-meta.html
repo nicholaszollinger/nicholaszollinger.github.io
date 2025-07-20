@@ -1,50 +1,66 @@
 <div class="widget-sidebar project-meta">
-  <h2 class="widget-sidebar__title">Project Details</h2>
-  {% if page.summary %}
-  <p class="project-meta__summary">{{ page.summary }}</p>
-  {% endif %}
-  {% if page.year %}
-  <!--<h3 class="project-meta__name">Year</h3>-->
-  <div class="project-meta__text">- {{ page.year }}</div>
-  <!-- This was the old date used. Not necessary for me.-->
-  <!--<time class="project-meta__text" datetime="{{ page.date | date_to_xmlschema }}">{% assign date_format = site.minima.date_format | default: "%d %-B, %Y" %}{{ page.date | date: date_format }}</time>-->
-  {% endif %}
+    <h2 class="widget-sidebar__title">Project Details</h2>
+    {% if page.summary %}
+        <p class="project-meta__summary">{{ page.summary }}</p>
+    {% endif %}
+    {% if page.year %}
+        <div class="project-meta__text">- {{ page.year }}</div>
+    {% endif %}
 
-  {% if page.client %}
-  <div class="project-meta__item">
-    <h3 class="project-meta__name">Client</h3>
-    <div class="project-meta__text">{{ page.client }}</div>
-  </div>
-  {% endif %}
-  {% if page.tools %}
-  <div class="project-meta__item">
-    <h3 class="project-meta__name">Made With</h3>
-    <div class="project-meta__text">{{ page.tools }}</div>
-  </div>
-  {% endif %}
+    {% if page.client %}
+        <div class="project-meta__item">
+            <h3 class="project-meta__name">Client</h3>
+            <div class="project-meta__text">{{ page.client }}</div>
+        </div>
+    {% endif %}
+    {% if page.tools %}
+        <div class="project-meta__item">
+            <h3 class="project-meta__name">Made With</h3>
+            <div class="project-meta__text">{{ page.tools }}</div>
+        </div>
+    {% endif %}
 
-  <!-- Github Link -->
-  {% if page.github %}
-  <div class="project-meta__item">
-  <!-- <a href="{{page.github}}/" class="linkButton">Github</a> -->
-  <a href="{{page.github}}/" target="_blank" class="linkButton">Github <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-    <!-- <div class="project-meta__name">Github:
-        <a href="{{page.github}}" class="github__link"><i class="fa-brands fa-github" style="color: #ffffff;"></i></a>
-    </div> -->
-  </div>
+    <!-- Github Link -->
+    {% if page.github != null %}
+    <div class="project-meta__item">
+        <!-- <a href="{{page.github}}/" target="_blank" class="linkButton">Github <i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+
+        <a href="{{page.github}}/" class="tag-container">
+            <div class="tag-image">
+                <img class="lazy" data-src="/assets/ThirdPartyArt/Github-Logo.png"/>
+            </div>
+            <div class="tag-meta">
+                <span class="tag-name">Github <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+                <!-- <span class="tag-count">{{ site.tags[page.projectTag].size }} {% if site.tags[page.projectTag].size < 2 %}Post{% else %}Posts{% endif %}</span> -->
+            </div>
+        </a>
+    </div>    
+    {% endif %}
+
+    <!-- Explore Posts Link -->
+    {% assign hasPost = false %}
+    {% for post in site.posts %}
+        {% if post.projectTag == page.projectTag %}
+            {% assign hasPost = true %}
+            {% break %}
+        {% endif %}
+    {% endfor %}
+    
+    {% if hasPost == true %}
+    <div class="project-meta__item">
+        <a href="{{ site.baseurl }}/tags/?tag={{ page.projectTag | downcase | url_encode }}" class="tag-container">
+            <div class="tag-image">
+                <img class="lazy" {% for post in site.tags[page.projectTag] %}{% if forloop.index==1 and post.image %} data-src="{{site.baseurl}}{{post.image}}" alt="post.title" {% endif %}{% endfor %}>
+            </div>
+            <div class="tag-meta">
+                <span class="tag-name">Explore Dev Logs</span>
+                <span class="tag-count">{{ site.tags[page.projectTag].size }} {% if site.tags[page.projectTag].size < 2 %}Post{% else %}Posts{% endif %}</span>
+            </div>
+        </a>
+    </div>
+    {% endif %}
     <!-- <h3 class="project-meta__name">Github</h3>-->
     <!--<button class="github-link" id="membedded-subscribe" type="link" name="subscribe">Github <i class="fa-solid fa-link"></i></button>
     <div class="project-meta__text">{{ page.github }}</div>
   </div>-->
-  {% endif %}
-
-  <!-- Year of the project.-->
-  <!-- {% if page.year %} -->
-  <!-- <div class="project-meta__item"> -->
-    <!--<h3 class="project-meta__name">Year</h3>-->
-    <!-- <div class="project-meta__text">({{ page.year }})</div> -->
-    <!-- This was the old date used. Not necessary for me.-->
-    <!--<time class="project-meta__text" datetime="{{ page.date | date_to_xmlschema }}">{% assign date_format = site.minima.date_format | default: "%d %-B, %Y" %}{{ page.date | date: date_format }}</time>-->
-  <!-- </div>
-  {% endif %} -->
 </div>
