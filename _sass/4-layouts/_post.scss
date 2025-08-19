@@ -212,6 +212,10 @@
     }
   }
 
+  strong {
+    color: var(--text-bold-color);
+  }
+
   img, .js-reframe {
     border-radius: 12px;
     overflow: hidden;
