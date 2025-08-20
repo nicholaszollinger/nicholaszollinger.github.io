@@ -21,12 +21,12 @@ Over the summer, I am going to be doing some project-wide refactors, with the ai
 - Refactor Logging & Profiling code to be more robust. ✅
 - Port Asset System Work from last semester. ✅
 - Finish basic Physics System ✅
+- Asset System overhaul; multithreaded architecture. ✅
 - Renderer Refactor, Render Thread, Debug Rendering API. ⌛
 - Create a Physics Test with boxes falling on each other.
 
 ### Fall Goals:
 Overall, I plan on having the basic structure to make small demos using my engine. Being able to load a project, edit and run all in the editor.
-- Asset System overhaul; multithreaded architecture.
 - ECS revisit.
 - Editor UI
 - Engine vs Game Applications
