@@ -5,19 +5,36 @@ permalink: /about/
 image: '/assets/Art/OnePieceProfilePic.png'
 ---
 
-Hello! I'm Nick, a software engineer in training looking to break into the gaming industry, and who enjoys making art when I can!
+Hello! I'm Nick, a software engineer in the video game industry!
 
-### Pursuing my Passion
-I am currently working to earn my Bachelor's degree in Game Programming at the Academy of Art University. Through hard work and mentorship from the industry professionals that teach there, I was given the opportunity to attend GDC 2023 in person!
+# 💼 Career Journey 💼
+### My First Job! - *Jan 2026*
+I accepted an offer to begin as a **Gameplay Programmer Intern** at **Epic Games**! I will be working as an intern from March to June! Super excited!!!
+
+### I Graduated! - *Dec 2025*
+I earned my **Bachelors in Game Programming** from the **Academy of Art University**. I pushed myself to do the best I could, and I can proudly say that I got an A in every programming class, finishing with a 3.88 GPA overall.
 
 ***
 
 # 👾GAMES!👾
 I love how games as an artistic medium have capacity to allow us to experience and explore worlds and perspectives beyond our own. I love the puzzles they present- crafting the perfect character build, finding all the juicy secrets and collectibles, spotting the patterns in a boss to defeat them. Each game is a new adventure, a new problem to solve, and a new experience to immerse myself in.
 
-I play a variety of games, depending on the headspace that I am in. Some days, I want delve into the challenging and remarkable worlds of titles such as FromSoftware's **Elden Ring**, where my concentration, tact and reflexes are challenged to their fullest. Some days I just want to be taken along for an adventure in more cinematic titles like Santa Monica's **God of War Ragnorok** or Sucker Punch's **Ghost of Tsushima**. Other times, I want just want some good ol' platforming in titles like **Spyro** or **Donkey Kong 64** where I can scoop up collectibles and chip my way at getting 100% completion. Recently my "need-to-turn-my-brain-off-and-chill" game has been **Powerwash Simulator** with a podcast in the background!
+**Games In Progress** ⌛
+- Hollow Knight: Silksong
+- Elder Scrolls V: Skyrim (I have put 500+ hours into this game, but never got all of the achievements!).
 
-I just started playing **Viewfinder** on PS5 and I absolutely love it so far!
+**Favorites** ⭐
+- Elder Scrolls V: Skyrim
+- Elden Ring
+- Any Pokemon Game 😅 (I really liked Pokemon Z-A!)
+- Donkey Kong Bananza
+- SSX3 (I beg for a remake 🙏)
+- Balatro
+- Fire Emblem: Awakening
+- Super Mario Strikers: Charged
+- Ghost of Yotei
+- Bastion (and basically anything Supergiant Games makes)
+- ...and soooo many more!!!
 
 ***
 
@@ -37,6 +54,4 @@ Before programming, I had art. I was always drawing as a kid, and eventually I g
 ***
 
 # 👀WHAT ELSE???👀
-Outside of programming and art, one of the things I do to keep myself active is distance running! My aim is to run a marathon someday!  
-
 I am a huge Everton Football Club fan, though I don't know if it is a curse or blessing 😅. NSNO!
