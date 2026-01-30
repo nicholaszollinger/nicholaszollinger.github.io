@@ -28,6 +28,7 @@ I love how games as an artistic medium have capacity to allow us to experience a
 - Elden Ring
 - Any Pokemon Game 😅 (I really liked Pokemon Z-A!)
 - Donkey Kong Bananza
+- Tunic
 - SSX3 (I beg for a remake 🙏)
 - Balatro
 - Fire Emblem: Awakening
