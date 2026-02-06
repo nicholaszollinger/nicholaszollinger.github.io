@@ -11,6 +11,10 @@ Hello! I'm Nick, a software engineer in the video game industry!
 ### My First Job! - *Jan 2026*
 I accepted an offer to begin as a **Gameplay Programmer Intern** at **Epic Games**! I will be working as an intern from March to June! Super excited!!!
 
+<div style="text-align:center; margin-bottom:30px;">
+  <img src="{{site.baseurl}}/assets/Epic Games Intern_RL.jpg" style="width:50%; height:auto;" padding="10">
+</div>
+
 ### I Graduated! - *Dec 2025*
 I earned my **Bachelors in Game Programming** from the **Academy of Art University**. I pushed myself to do the best I could, and I can proudly say that I got an A in every programming class, finishing with a 3.88 GPA overall.
 
